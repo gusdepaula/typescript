@@ -1,1 +1,2 @@
-console.log("hi");
+var a = 10;
+var b = "Gustavo";
