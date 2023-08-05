@@ -25,3 +25,9 @@ function add(num1: number, num2: number): number {
 }
 
 console.log(add(5, 8));
+
+function result(price: number) {
+  console.log("the result is " + price);
+}
+
+console.log(result(add(6, 3)));
