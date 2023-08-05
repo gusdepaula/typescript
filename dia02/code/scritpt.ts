@@ -1,7 +1,1 @@
-let price = 40;
-let item = "apple";
-let inStore = true;
-
-let value;
-value = 10;
-value = "Gustavo";
+let values: number[] = [10, 20, 40, 30];
