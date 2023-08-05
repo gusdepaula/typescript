@@ -53,3 +53,9 @@ itemInput = "apple";
 if (itemInput === "string") {
   itemName = itemInput;
 }
+
+function generateError(message: string, code: number) {
+  throw { message: message, errorCode: code };
+}
+
+console.log(generateError("The application crashed", 500));
