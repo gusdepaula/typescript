@@ -25,3 +25,9 @@ function result(price) {
     console.log("the result is " + price);
 }
 console.log(result(add(6, 3)));
+const userNew = {
+    firstName: "Gustavo",
+    age: 39,
+    lastName: "s",
+};
+userNew.lastName = "de Paula";

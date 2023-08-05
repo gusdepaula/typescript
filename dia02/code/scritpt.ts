@@ -31,3 +31,15 @@ function result(price: number) {
 }
 
 console.log(result(add(6, 3)));
+
+const userNew: {
+  firstName: string;
+  age: number;
+  lastName: string;
+} = {
+  firstName: "Gustavo",
+  age: 39,
+  lastName: "s",
+};
+
+userNew.lastName = "de Paula";
