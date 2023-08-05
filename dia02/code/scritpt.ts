@@ -43,3 +43,13 @@ const userNew: {
 };
 
 userNew.lastName = "de Paula";
+
+let itemInput: unknown;
+let itemName: string;
+
+itemInput = 10;
+itemInput = "apple";
+
+if (itemInput === "string") {
+  itemName = itemInput;
+}

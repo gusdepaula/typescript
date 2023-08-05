@@ -31,3 +31,10 @@ const userNew = {
     lastName: "s",
 };
 userNew.lastName = "de Paula";
+let itemInput;
+let itemName;
+itemInput = 10;
+itemInput = "apple";
+if (itemInput === "string") {
+    itemName = itemInput;
+}
