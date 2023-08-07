@@ -30,3 +30,24 @@ let productSize: "S" | "M" | "L ";
 
 productPrice = 30;
 productSize = "S";
+
+type User = {
+  firstName: string;
+  age: number;
+};
+
+type JobRole = {
+  id: number;
+  role: string;
+};
+
+type employee = User & JobRole;
+
+const employee1: employee = {
+  firstName: "Gustavo",
+  age: 31,
+  id: 221,
+  role: "frontend",
+};
+
+console.log(employee1);
