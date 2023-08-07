@@ -24,3 +24,9 @@ console.log(combinePrices);
 
 const combineName = userInput("Apple", "Avocado");
 console.log(combineName);
+
+let productPrice: 10 | 20 | 30;
+let productSize: "S" | "M" | "L ";
+
+productPrice = 30;
+productSize = "S";
