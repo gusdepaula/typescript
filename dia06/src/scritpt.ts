@@ -1,4 +1,4 @@
-class Movies {
+/*class Movies {
   // readonly id: number;
   // name: string;
 
@@ -15,3 +15,4 @@ class Movies {
 let movie1 = new Movies(1, "Dejavu", 20);
 movie1.id = 5;
 console.log(movie1);
+*/
