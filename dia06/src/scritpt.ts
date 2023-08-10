@@ -24,17 +24,26 @@ class Person {
     public age: number
   ) {}
 
-  greet() {
-    console.log("Hi");
+  get greet() {
+    return this.firstName + " " + this.lastName;
   }
 }
 
 // Cliente do banco
 class Clients extends Person {
-  balance() {
-    console.log("Your balance is $100");
+  override get greet() {
+    return "Dear " + super.greet;
+  }
+}
+
+// Funcionário do banco
+class Staff extends Person {
+  override get greet() {
+    return "Hi " + super.greet;
   }
 }
 
 let client1 = new Clients("Gustavo", "De Paula", 40);
-console.log(client1);
+let staff1 = new Staff("Ana", "De Paula", 25);
+console.log(client1.greet);
+console.log(staff1.greet);
